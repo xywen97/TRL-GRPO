@@ -12,7 +12,7 @@ def train(args):
     model = AutoModelForCausalLM.from_pretrained(
         args.model_id,
         torch_dtype="auto",
-        device_map="auto",
+        device_map="cuda",
     )
     lora_config = LoraConfig(
         task_type="CAUSAL_LM",
