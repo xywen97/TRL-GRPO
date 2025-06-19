@@ -69,8 +69,8 @@ Thumbs.db
 nohup.out
 
 # 其他
-Qwen2.5-0.5B-GRPO-test/
-Qwen2.5-3B-GRPO-test/
+ckpts/Qwen2.5-0.5B-GRPO-test*/
+ckpts/Qwen2.5-3B-GRPO-test*/
 wandb/
 outputs/
 logs/

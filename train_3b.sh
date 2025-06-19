@@ -3,7 +3,7 @@ export CUDA_VISIBLE_DEVICES=3
 python main.py \
   --model_id "Qwen/Qwen2.5-3B-Instruct" \
   --dataset_id "AI-MO/NuminaMath-TIR" \
-  --output_dir "Qwen2.5-3B-GRPO-test" \
+  --output_dir "ckpts/Qwen2.5-3B-GRPO-test-$(date +%Y%m%d_%H%M%S)" \
   --learning_rate 1e-5 \
   --num_train_epochs 4 \
   --per_device_train_batch_size 1 \
