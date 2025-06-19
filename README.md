@@ -80,7 +80,7 @@ python main.py \
    ```
    按提示选择多卡单机、deepspeed 等配置。
 
-2. 推荐 deepspeed 配置文件（如 `zero3.json`）：
+2. 推荐 deepspeed 配置文件（如 `deepspeed_configs/zero3.yaml`）：
    ```yaml
     compute_environment: LOCAL_MACHINE
     debug: false
