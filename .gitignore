@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pkl
+*.pickle
+*.ipynb_checkpoints/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# 环境/依赖
+.env
+.venv
+venv/
+ENV/
+env/
+*.env
+*.yml
+*.yaml
+
+# 数据/模型/输出
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+*.npz
+*.npy
+*.log
+*.csv
+*.tsv
+*.jsonl
+*.db
+*.sqlite3
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.rar
+*.7z
+*.bak
+*.swp
+*.tmp
+*.cache
+*.dat
+*.out
+*.log
+*.tensorboard
+
+*.model
+*.weights
+
+# Huggingface Transformers缓存
+.cache/
+
+# VSCode
+.vscode/
+
+# Mac/Linux/Windows系统文件
+.DS_Store
+Thumbs.db
+
+# 个人化/临时
+*.local
+*.pid
+nohup.out
+
+# 其他
+Qwen2.5-0.5B-GRPO-test/
+Qwen2.5-3B-GRPO-test/
+wandb/
+outputs/
+logs/
+checkpoints/
+output/
