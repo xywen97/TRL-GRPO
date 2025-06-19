@@ -79,6 +79,8 @@ if __name__ == "__main__":
         r"<think>思考过程</think><answer>答案是42</answer>",
         # 只有<think>和<answer>，且<answer>内有\boxed{}
         r"<think>思考过程</think><answer>答案是42 \boxed{42}</answer>",
+        # 只有<think>和<answer>，但\boxed{}在<answer>外
+        r"<think>思考过程</think><answer>答案是42</answer> \boxed{42}",
         # 只有<answer>和\boxed
         r"<answer>\boxed{42}</answer>",
         # 只有<think>和\boxed
